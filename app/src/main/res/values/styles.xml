@@ -1,0 +1,24 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme">
+        <item name="android:windowNoTitle">true</item>
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="corner_btn">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">40dip</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/corner_btn_text_color</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="corner_btn.blue" parent="corner_btn">
+        <item name="android:background">@drawable/corner_btn_blue_src</item>
+    </style>
+
+</resources>

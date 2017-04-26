@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 一般页面的导航栏 -->
+    <declare-styleable name="topBar">
+        <attr name="topbar_layout" format="reference" />
+        <!-- 导航栏返回按钮是否可见 -->
+        <attr name="topbar_return_visiable" format="boolean" />
+        <!-- 导航栏的标题 -->
+        <attr name="topbar_title" format="string" />
+        <!-- 导航栏右边文字按钮的文字 -->
+        <attr name="topbar_right_text" format="string" />
+        <!-- 导航栏左边文字按钮的文字 -->
+        <attr name="topbar_left_text" format="string" />
+        <!-- 导航栏右边图标按钮是否可见 -->
+        <attr name="topbar_right_image_visiable" format="boolean" />
+        <!-- 导航栏右边文字按钮是否可见 -->
+        <attr name="topbar_right_text_visiable" format="boolean" />
+        <!-- 导航栏左边文字按钮是否可见 -->
+        <attr name="topbar_left_text_visiable" format="boolean" />
+        <!-- 导航栏右边按钮的图标 -->
+        <attr name="topbar_right_image_src" format="reference" />
+        <!-- 导航栏标题的图标 -->
+        <attr name="topbar_title_src" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="LockPatternViewEx">
+
+        <!--
+             Aspect to use when drawing LockPatternView. Choices are "square"(default), "lock_width"
+             or "lock_height"
+        -->
+        <attr name="aspect" format="string" />
+        <!-- Color to use when drawing LockPatternView paths. -->
+        <attr name="pathColor" format="color|reference" />
+        <!-- The regular pattern color -->
+        <attr name="regularColor" format="color|reference" />
+        <!-- The error color -->
+        <attr name="errorColor" format="color|reference" />
+        <!-- The success color -->
+        <attr name="successColor" format="color|reference" />
+    </declare-styleable>
+    <declare-styleable name="PullToRefresh">
+
+        <!-- A drawable to use as the background of the Refreshable View -->
+        <attr name="ptrRefreshableViewBackground" format="reference|color" />
+
+        <!-- A drawable to use as the background of the Header and Footer Loading Views -->
+        <attr name="ptrHeaderBackground" format="reference|color" />
+
+        <!-- Text Color of the Header and Footer Loading Views -->
+        <attr name="ptrHeaderTextColor" format="reference|color" />
+
+        <!-- Text Color of the Header and Footer Loading Views Sub Header -->
+        <attr name="ptrHeaderSubTextColor" format="reference|color" />
+
+        <!-- Mode of Pull-to-Refresh that should be used -->
+        <attr name="ptrMode">
+            <flag name="disabled" value="0x0" />
+            <flag name="pullFromStart" value="0x1" />
+            <flag name="pullFromEnd" value="0x2" />
+            <flag name="both" value="0x3" />
+            <flag name="manualOnly" value="0x4" />
+
+            <!-- These last two are depreacted -->
+            <flag name="pullDownFromTop" value="0x1" />
+            <flag name="pullUpFromBottom" value="0x2" />
+        </attr>
+
+        <!-- Whether the Indicator overlay(s) should be used -->
+        <attr name="ptrShowIndicator" format="reference|boolean" />
+
+        <!-- Drawable to use as Loading Indicator. Changes both Header and Footer. -->
+        <attr name="ptrDrawable" format="reference" />
+
+        <!-- Drawable to use as Loading Indicator in the Header View. Overrides value set in ptrDrawable. -->
+        <attr name="ptrDrawableStart" format="reference" />
+
+        <!-- Drawable to use as Loading Indicator in the Footer View. Overrides value set in ptrDrawable. -->
+        <attr name="ptrDrawableEnd" format="reference" />
+
+        <!-- Whether Android's built-in Over Scroll should be utilised for Pull-to-Refresh. -->
+        <attr name="ptrOverScroll" format="reference|boolean" />
+
+        <!-- Base text color, typeface, size, and style for Header and Footer Loading Views -->
+        <attr name="ptrHeaderTextAppearance" format="reference" />
+
+        <!-- Base text color, typeface, size, and style for Header and Footer Loading Views Sub Header -->
+        <attr name="ptrSubHeaderTextAppearance" format="reference" />
+
+        <!-- Style of Animation should be used displayed when pulling. -->
+        <attr name="ptrAnimationStyle">
+            <flag name="rotate" value="0x0" />
+            <flag name="flip" value="0x1" />
+        </attr>
+
+        <!-- Whether the user can scroll while the View is Refreshing -->
+        <attr name="ptrScrollingWhileRefreshingEnabled" format="reference|boolean" />
+
+        <!--
+        	Whether PullToRefreshListView has it's extras enabled. This allows the user to be 
+        	able to scroll while refreshing, and behaves better. It acheives this by adding
+        	Header and/or Footer Views to the ListView.
+        -->
+        <attr name="ptrListViewExtrasEnabled" format="reference|boolean" />
+
+        <!--
+        	Whether the Drawable should be continually rotated as you pull. This only
+        	takes effect when using the 'Rotate' Animation Style.
+        -->
+        <attr name="ptrRotateDrawableWhilePulling" format="reference|boolean" />
+
+        <!-- BELOW HERE ARE DEPRECEATED. DO NOT USE. -->
+        <attr name="ptrAdapterViewBackground" format="reference|color" />
+        <attr name="ptrDrawableTop" format="reference" />
+        <attr name="ptrDrawableBottom" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="SlidingUpPanelLayout">
+        <attr name="umanoPanelHeight" format="dimension" />
+        <attr name="umanoShadowHeight" format="dimension" />
+        <attr name="umanoParalaxOffset" format="dimension" />
+        <attr name="umanoFadeColor" format="color" />
+        <attr name="umanoFlingVelocity" format="integer" />
+        <attr name="umanoDragView" format="reference" />
+        <attr name="umanoScrollableView" format="reference" />
+        <attr name="umanoOverlay" format="boolean" />
+        <attr name="umanoClipPanel" format="boolean" />
+        <attr name="umanoAnchorPoint" format="float" />
+        <attr name="umanoInitialState" format="enum">
+            <enum name="expanded" value="0" />
+            <enum name="collapsed" value="1" />
+            <enum name="anchored" value="2" />
+            <enum name="hidden" value="3" />
+        </attr>
+    </declare-styleable>
+    
+    <declare-styleable name="AppView_Element">
+       <attr name="element_id" format="string" />
+   </declare-styleable>
+
+    <declare-styleable name="ShaderImageView">
+        <attr name="siSquare" format="boolean" />
+        <attr name="siBorderColor" format="color" />
+        <attr name="siBorderWidth" format="dimension" />
+        <attr name="siBorderAlpha" format="float" />
+        <attr name="siForeground" format="integer|reference" />
+        <!-- Rounded Image View -->
+        <attr name="siRadius" format="dimension" />
+        <!--BubbleImageView-->
+        <attr name="siArrowPosition" format="integer|reference"/>
+        <attr name="siTriangleHeight" format="dimension"/>
+        <!--PorterImageView-->
+        <attr name="siShape" format="integer|reference" />
+    </declare-styleable>
+    
+    <declare-styleable name="dragGridView">
+        <attr name="dividerColor" format="color" />
+        <attr name="dividerShowed" format="boolean" />
+        <attr name="dividerPaddingTop" format="dimension" />
+        <attr name="dividerPaddingBottom" format="dimension" />
+        <attr name="dividerWidth" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="DotView">
+       <attr name="dot_id" format="reference" />
+    </declare-styleable>
+
+    <!-- Point TextView -->
+    <declare-styleable name="PointTextView">
+        <attr name="flag" format="integer|reference" />
+    </declare-styleable>
+
+    <!-- Gallery View -->
+    <declare-styleable name="GalleryView">
+        <attr name="max_count" format="integer|reference" />
+        <attr name="show_camera" format="boolean|reference" />
+    </declare-styleable>
+    
+</resources>

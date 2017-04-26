@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/top_bar_height" >
+	<ImageView 
+	    android:id="@+id/topbar_back_btn"
+	    android:layout_height="match_parent"
+	    android:layout_width="@dimen/top_bar_height"
+	    android:scaleType="center"
+	    android:layout_alignParentLeft="true"
+	    android:src="@drawable/back" />
+    <TextView 
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:id="@+id/topbar_left"
+        android:textColor="@color/text_actionbar_title"
+        android:layout_alignParentLeft="true"
+        android:visibility="gone"
+        android:textSize="@dimen/top_bar_left" />
+    <TextView 
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:id="@+id/topbar_title"
+        android:textColor="@color/text_actionbar_title"
+        android:layout_centerInParent="true"
+        android:singleLine="true"
+        android:layout_marginLeft="20dip"
+        android:layout_marginRight="20dip"
+        android:textSize="@dimen/top_bar_title" />
+    <TextView 
+        android:layout_height="match_parent"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:id="@+id/topbar_right"
+        android:textColor="@color/text_actionbar_title"
+        android:layout_alignParentRight="true"
+        android:textSize="@dimen/top_bar_left" />
+    <ImageView 
+	    android:id="@+id/topbar_menu_btn"
+	    android:layout_height="match_parent"
+	    android:layout_width="@dimen/top_bar_height"
+	    android:scaleType="center"
+	    android:layout_alignParentRight="true"
+	    android:src="@drawable/setting_btn_normal"
+	    android:visibility="gone" />
+</merge>

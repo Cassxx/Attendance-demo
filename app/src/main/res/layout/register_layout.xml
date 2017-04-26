@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/doc_bg">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/myoffice_account_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/mobile_register_one_tv"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:text="@string/mobile_num"
+            android:textColor="@color/text_tab"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/mobile_register_one_et"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:textColor="@color/text_tab"
+            android:textSize="12sp"
+            android:inputType="phone"
+            android:singleLine="true"
+            android:digits="0123456789"
+            android:hint="请输入你的手机号" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="50dip"
+        android:layout_marginTop="10dip"
+        android:background="@drawable/myoffice_account_bg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/mobile_register_two_tv"
+            android:layout_width="70dip"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dip"
+            android:text="密码"
+            android:textColor="@color/text_tab"
+            android:textSize="12sp" />
+
+        <EditText
+            android:id="@+id/mobile_register_two_et"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:textColor="@color/text_tab"
+            android:textSize="12sp"
+            android:inputType="phone"
+            android:singleLine="true"
+            android:digits="0123456789"
+            android:hint="请输入你的密码" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/register_next_btn"
+        android:layout_marginTop="64dip"
+        style="@style/corner_btn.blue"
+        android:layout_marginLeft="@dimen/btn_padding_left"
+        android:layout_marginRight="@dimen/btn_padding_right"
+        android:text="@string/next_step" />
+
+</LinearLayout>

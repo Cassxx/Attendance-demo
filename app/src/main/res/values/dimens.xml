@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+   Copyright 2012 Hai Bison
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use this file except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+-->
+
+<resources>
+
+    <dimen name="lock_pattern_dot_line_width">3dp</dimen>
+    <dimen name="lock_pattern_dot_size">12dp</dimen>
+    <dimen name="lock_pattern_dot_size_activated">28dp</dimen>
+
+    <!-- market -->
+    <dimen name="market_topbar_text">15sp</dimen>
+    <dimen name="market_app_icon">60dip</dimen>
+    <dimen name="market_app_name">13sp</dimen>
+    <dimen name="market_app_drawable_margin">10dip</dimen>
+    <dimen name="market_top_bar_height">46dip</dimen>
+    <dimen name="market_top_bar_bg_height">50dip</dimen>
+    <dimen name="market_top_bar_margin">8dip</dimen>
+    <dimen name="market_update_btn_text">20dip</dimen>
+    <dimen name="market_progress_width">60dip</dimen>
+    <dimen name="market_progress_height">4dip</dimen>
+    <dimen name="market_progress_margin_bottom">5dip</dimen>
+    <dimen name="market_app_new_width">40dip</dimen>
+    
+    
+    
+    
+    <dimen name="top_bar_margin_top">2dip</dimen>
+    <dimen name="settings_right_jiantou">30dip</dimen>
+    
+    <dimen name="oa_account_text">20sp</dimen>
+    <dimen name="oa_item_text">15sp</dimen>
+    <dimen name="myoffice_item_margin_top">15dip</dimen>
+    <dimen name="myoffice_item_margin_left">20dip</dimen>
+    <dimen name="myoffice_item_height">50dip</dimen>
+    <dimen name="myoffice_item_margin_right">20dip</dimen>
+    <dimen name="myoffice_account_height">60dip</dimen>
+    <dimen name="myoffice_item_icon_width">30dip</dimen>
+    <dimen name="top_bar_left">15sp</dimen>
+    <dimen name="text_content_default">15sp</dimen>
+    <dimen name="bottom_btn_15">11sp</dimen>
+    <dimen name="btn_13">12sp</dimen>
+    <dimen name="text_16">16sp</dimen>
+    <dimen name="margin_left">15dip</dimen>
+    <dimen name="margin_right">15dip</dimen>
+    <dimen name="margin_top">15dip</dimen>
+    <dimen name="margin_bottom">15dip</dimen>
+    <dimen name="divider_height">28dip</dimen>
+    <dimen name="divider_top">14dip</dimen>
+
+    <!-- pull views -->
+    <dimen name="indicator_right_padding">10dp</dimen>
+    <dimen name="indicator_corner_radius">12dp</dimen>
+    <dimen name="indicator_internal_padding">4dp</dimen>
+    <dimen name="header_footer_left_right_padding">24dp</dimen>
+    <dimen name="header_footer_top_bottom_padding">12dp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+
+    <!-- dialog -->
+    <dimen name="dialog_width">260dp</dimen>
+    <dimen name="dialog_title">50dp</dimen>
+    <dimen name="dialog_title_marginleft">10dp</dimen>
+    <dimen name="dialog_content_height">65dp</dimen>
+    <dimen name="dialog_content_marginleft">10dp</dimen>
+    <dimen name="dialog_button_height">46dp</dimen>
+    <dimen name="dialog_font">15sp</dimen>
+
+    <!-- login -->
+    <dimen name="logo_icon_lly">145dip</dimen>
+    <dimen name="logo_icon_width">160dip</dimen>
+    <dimen name="logo_icon_height">160dip</dimen>
+    <dimen name="login_et_height">40dip</dimen>
+    <dimen name="login_et_marginLeft">10dip</dimen>
+    <dimen name="login_et_marginright">10dip</dimen>
+    <dimen name="login_et_iv_width">30dip</dimen>
+    <dimen name="login_et_iv_height">30dip</dimen>
+    <dimen name="topicon_margintop">20dip</dimen>
+
+    <!-- settings -->
+    <dimen name="userinfo_lly_height">120dip</dimen>
+    <dimen name="userinfo_icon_height">90dip</dimen>
+    <dimen name="userinfo_icon_width">90dip</dimen>
+    <dimen name="setting_item_height">75dip</dimen>
+    <dimen name="setting_item_marginright">20dip</dimen>
+    <dimen name="setting_btn_height">55dip</dimen>
+    
+    
+    <!-- container dimen -->
+    <dimen name="container_multiple_grid01_height">164dip</dimen>
+    <dimen name="container_multiple_grid01_item_height">82dip</dimen>
+    <dimen name="container_multiple_grid03_item_height">96dip</dimen>
+    <dimen name="container_multiple_list_item_height">54dip</dimen>
+    <dimen name="container_multiple_grid02_item_height">64dip</dimen>
+    <!-- 为了可以画红点点，都各自增加5dip,但是显示的内容还是不变，需要设置pandding -->
+    <dimen name="container_image_width_30">40dip</dimen>
+    <dimen name="container_image_width_38">43dip</dimen>
+    <dimen name="container_image_width_40">45dip</dimen>
+    
+	<dimen name="container_text_size_14">14sp</dimen>
+    <dimen name="container_text_size_12">12sp</dimen>
+    <dimen name="container_text_size_10">10sp</dimen>
+    <dimen name="container_margin_left">15dip</dimen>
+    <dimen name="container_margin_right">15dip</dimen>
+    <dimen name="container_divider_8">8dip</dimen>
+    <dimen name="container_divider_4">4dip</dimen>
+    <dimen name="container_border_width">5dip</dimen>
+    <!-- container_margin_left + container_image_width_30 + container_margin_left -->
+    <dimen name="container_item_list_divider_marginleft">70dip</dimen>
+    <dimen name="container_grid_dot">12dip</dimen>
+    <dimen name="container_grid_dot_width">6dip</dimen>
+    <dimen name="container_account_layout_height">128dip</dimen>
+    <dimen name="container_account_top_height">68dip</dimen>
+    <dimen name="container_account_icon_height">88dip</dimen>
+    
+    <!-- ============框架里的一些标准设置============ -->
+    <!-- 标题栏的高度 -->
+    <dimen name="top_bar_height">50dip</dimen>
+    <!-- 标题栏父View的高度 -->
+    <dimen name="top_bar_parent_height">50dip</dimen>
+    <!-- 标题栏文字大小 -->
+    <dimen name="top_bar_title">18sp</dimen>
+    <!-- 导航栏高度 -->
+    <dimen name="menu_height">60dip</dimen>
+    <!-- 导航栏字体大小 -->
+    <dimen name="menu_bar_size">10sp</dimen>
+    <!-- 按钮默认左间距 -->
+    <dimen name="btn_padding_left">10dip</dimen>
+    <!-- 按钮默认右间距 -->
+    <dimen name="btn_padding_right">10dip</dimen>
+    <!-- 按钮默认上间距 -->
+    <dimen name="btn_padding_top">5dip</dimen>
+    <!-- 按钮默认下间距 -->
+    <dimen name="btn_padding_bottom">5dip</dimen>
+    <!-- 按钮默认左间距 -->
+    <dimen name="btn_default_size_14">14sp</dimen>
+    <!-- 按钮高度 -->
+    <dimen name="btn_default_height">40dip</dimen>
+    <!-- 对话框的宽度和高度 -->
+    <dimen name="frame_dialog_width">98dip</dimen>
+    <dimen name="frame_dialog_height">98dip</dimen>
+
+    <!-- 日期和时间控件 -->
+    <dimen name="done_label_size">14sp</dimen>
+    <dimen name="date_picker_component_width">270dip</dimen>
+    <dimen name="date_picker_header_height">30dip</dimen>
+    <dimen name="selected_calendar_layout_height">155dip</dimen>
+    <dimen name="date_picker_view_animator_height">270dip</dimen>
+    <dimen name="month_list_item_header_height">50dip</dimen>
+    <dimen name="month_day_label_text_size">10sp</dimen>
+    <dimen name="day_number_select_circle_radius">16dip</dimen>
+    <dimen name="month_select_circle_radius">45dip</dimen>
+    <dimen name="selected_date_year_size">30dip</dimen>
+    <dimen name="selected_date_day_size">75dip</dimen>
+    <dimen name="selected_date_month_size">30dip</dimen>
+    <dimen name="date_picker_header_text_size">14dip</dimen>
+    <dimen name="month_label_size">16sp</dimen>
+    <dimen name="day_number_size">16sp</dimen>
+    <dimen name="year_label_height">64dip</dimen>
+    <dimen name="year_label_text_size">22dip</dimen>
+    <dimen name="time_label_size">60sp</dimen>
+    <dimen name="extra_time_label_margin">-30dp</dimen>
+    <dimen name="ampm_label_size">16sp</dimen>
+    <dimen name="ampm_left_padding">6dip</dimen>
+    <dimen name="separator_padding">4dip</dimen>
+    <dimen name="header_height">96dip</dimen>
+    <dimen name="picker_dimen">270dip</dimen>
+    <dimen name="minimum_margin_sides">48dip</dimen>
+    <dimen name="minimum_margin_top_bottom">24dip</dimen>
+    <item name="circle_radius_multiplier" format="float" type="string">0.82</item>
+    <item name="circle_radius_multiplier_24HourMode" format="float" type="string">0.85</item>
+    <item name="selection_radius_multiplier" format="float" type="string">0.16</item>
+    <item name="ampm_circle_radius_multiplier" format="float" type="string">0.19</item>
+    <item name="numbers_radius_multiplier_normal" format="float" type="string">0.81</item>
+    <item name="numbers_radius_multiplier_inner" format="float" type="string">0.60</item>
+    <item name="numbers_radius_multiplier_outer" format="float" type="string">0.83</item>
+    <item name="text_size_multiplier_normal" format="float" type="string">0.17</item>
+    <item name="text_size_multiplier_inner" format="float" type="string">0.14</item>
+    <item name="text_size_multiplier_outer" format="float" type="string">0.11</item>
+    <!-- 日期和时间控件结束 -->
+
+</resources>

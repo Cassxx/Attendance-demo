@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>  
+        <shape>  
+            <solid android:color="@color/btn_blue" />  
+            <corners android:radius="2dip" />  
+        </shape>  
+    </item>  
+    <item android:top="1dip" android:left="1dip" android:right="1dip" android:bottom="1dip">  
+        <shape>  
+            <solid android:color="@color/edittext_bg" />  
+            <corners android:radius="2dip" />  
+        </shape>  
+    </item> 
+
+</layer-list>

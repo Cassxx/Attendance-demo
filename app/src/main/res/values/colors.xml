@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <attr name="color_lock_pattern_view_regular" format="reference" />
+    <attr name="color_lock_pattern_view_success" format="reference" />
+    <attr name="color_lock_pattern_view_error" format="reference" />
+
+    <color name="lock_pattern_view_regular_light">#ffffffff</color>
+    <color name="lock_pattern_view_success_light">#ffffffff</color>
+    <color name="lock_pattern_view_error_light">#fff4511e</color>
+    <!-- <color name="lock_pattern_view_regular_dark">#ff37474f</color> -->
+    <color name="lock_pattern_view_regular_dark">#f0ffffff</color>
+    <color name="lock_pattern_view_success_dark">#ff009688</color>
+    <color name="lock_pattern_view_error_dark">#fff4511e</color>
+
+    
+    <!-- menu -->
+    
+    <color name="drag_item_bg">#fffafafa</color>
+    
+    <color name="oa_item_bg">#ffffffff</color>
+    <color name="top_bar_bg">#ff286ab4</color>
+    <color name="page_bg">#fff3f3f3</color>
+    <color name="edittext_bg">#ffffffff</color>
+    <color name="btn_default">#ffff7c11</color>
+    <color name="btn_focus">#ffffffff</color>
+    <color name="text_hint">#ffcccccc</color>
+    <color name="text_actionbar_title">#ffffffff</color>
+    <color name="text_default">#ff666666</color>
+    <color name="text_tab">#ff333333</color>
+    <color name="text_money">#ff9c7430</color>
+    <color name="btn_blue">#ff286ab4</color>
+    <color name="text_red_bg">#ffff0000</color>
+    <color name="text_white">#ffffffff</color>
+    <color name="text_status">#ff24abf3</color>
+    <color name="text_9c7430">#ff9c7430</color>
+    <color name="text_990000">#ff990000</color>
+    <color name="listview_item">#00000000</color>
+    <color name="text_999999">#ff999999</color>
+    <color name="login_divider">#ff666666</color>
+    <color name="login_btn_default">#e0286ab4</color>
+    <color name="login_btn_foucs">#ff286ab4</color>
+    <color name="lock_bg">#ff37474f</color>
+    <color name="dialog_blue">#2fbbf2</color>
+    <color name="dialog_black">#414040</color>
+    <color name="login_white">#fafafa</color>
+    <color name="login_baseline">#171717</color>
+    <color name="login_allbg">#f1f1f1</color>
+    <color name="login_btn_bg">#2fbbf2</color>
+    <color name="settings_line">#cbcbcb</color>
+    <color name="settings_id">#9b9b9b</color>
+    <color name="login_bg_color">#21afe6</color>
+    <color name="transparentblue">#445CACEE</color>
+
+    <color name="workintime">#97D7FF</color>
+    <color name="zonghe">#FF5D2B</color>
+
+
+    <color name="details_switch_bg">#12AC7F</color>
+    
+    <color name="search_str">#cdcdcd</color>
+    <color name="login_jiantou_bg">#ffcccb</color>
+    <color name="focus_color">#7f33b5e5</color>
+
+    <!-- PDF -->
+    <color name="toolbar">#C0000000</color>
+    <color name="page_indicator">#C0202020</color>
+    <color name="seek_thumb">#2572AC</color>
+    <color name="seek_progress">#FFFFFF</color>
+    <color name="busy_indicator">#C0202020</color>
+    <color name="touming">#08000000</color>
+
+
+    <color name="sliding_menu_item_down">#ff39393b</color>
+    <color name="sliding_menu_item_release">#00000000</color>
+    <color name="sliding_menu_background">#ff2c2c2e</color>
+    <color name="sliding_menu_body_background">#fff5f5f5</color>
+
+    <!-- container dimen -->
+    <color name="container_text_title">#ff4d4d4d</color>
+    <color name="container_text_subtitle">#ffb3b3b3</color>
+    <color name="container_divider_bg">#ffebebeb</color>
+    <color name="container_dot_selected">#ff51afe6</color>
+    <color name="container_dot_normal">#ffe5e5e5</color>
+    <color name="center_confirm_pwd_btn">#FF5013</color>
+    <!--<color name="title_bg">#919191</color>-->
+
+    <!-- system message -->
+    <color name="system_message_unread">#ff333333</color>
+    <color name="system_message_readed">#ff999999</color>
+    
+    <!-- ============框架里的一些标准设置============ -->
+    <!-- 界面的默认背景,最底层背景 -->
+    <color name="main_framework_bg">#ffebebeb</color>
+    <!-- 标题栏的背景色 -->
+    <color name="topbar_bg">#51afe6</color>
+    <!-- 导航栏背景 -->
+    <color name="menubar_bg">#fff7f7f7</color>
+    <!-- 导航栏item选中状态颜色 -->
+    <color name="menu_selected_color">#ff51afe6</color>
+    <!-- 导航栏item未选中状态颜色 -->
+    <color name="menu_normal_color">#ff535759</color>
+    <!-- 标题栏的字体颜色 -->
+    <color name="menu_topbar_text">#ffffffff</color>
+    <!-- 一般按钮的默认颜色 -->
+    <color name="btn_default_color">#ff999999</color>
+    <!-- divider bg -->
+    <color name="divider_bg">#ffd9d9d9</color>
+
+    <!-- 年会 -->
+    <color name="annual_topbar_bg">#dd4b54</color>
+
+    <color name="doc_bg">#ebebeb</color>
+
+
+    <!-- dialog背景色-->
+    <color name="gray_f8">#f0f2f0</color>
+    <color name="gray_d8">#d8d8d8</color>
+    <color name="gray_e4">#e4e4e4</color>
+    <color name="blue_03">#037aff</color>
+
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+
+    <!--日历控件颜色值-->
+    <color name="white">#ffffffff</color>
+    <color name="circle_background">#fff2f2f2</color>
+    <color name="line_background">#ffcccccc</color>
+    <color name="done_text_color_normal">#ff333333</color>
+    <color name="done_text_color_disabled">#ffcccccc</color>
+    <color name="blue">#ff33b5e5</color>
+    <color name="darker_blue">#ff0099cc</color>
+    <color name="date_picker_text_normal">#ff999999</color>
+    <color name="calendar_header">#ff999999</color>
+    <color name="date_picker_view_animator">#fff2f2f2</color>
+    <color name="ampm_text_color">#8c8c8c</color>
+    <color name="numbers_text_color">#8c8c8c</color>
+
+
+    <!-- 考勤签到 -->
+    <color name="sign_list_item_text">#ff333333</color>
+    <color name="sign_month_color">#FF5013</color>
+    <color name="sign_bar_bg">#B6BCB8</color>
+    <color name="sign_bg">#ebebeb</color>
+    <color name="signr_bg">#d9d9d9</color>
+    <color name="top_sign_bgcolor">#52AFE5</color>
+    <color name="top_sign_divider">#4898C6</color>
+    <color name="top_sign_text_color">#97D9FF</color>
+    <color name="gps_divider_color">#E1E4E6</color>
+    <color name="gps_dialog_btn">#55B0E6</color>
+
+    <color name="sign_details_color">#55B0E6</color>
+    <!-- 签到 -->
+    <color name="sign_in_bg">#ffffff</color>
+    <color name="text">#333333</color>
+    <color name="confirm_text">#51AFE6</color>
+    <color name="text_add_color">#55B0E6</color>
+    <color name="pupup_text_color">#55B0E6</color>
+    <color name="album_bg">#000000</color>
+    <color name="sign_in_text">#ffffff</color>
+    <color name="line_gray">#BCBCBC</color>
+    <color name="time">#51AFE6</color>
+    <color name="remote_sign">#ffffff</color>
+    <color name="remote_sign_bg">#BCBCBC</color>
+    <color name="check_lv_bg">#ffffff</color>
+    <color name="title_bg">#55B0E6</color>
+    <color name="map_list_bg">#ffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="text_gray">#BCBCBC</color>
+    <color name="carlendar_bg">#ffffff</color>
+    <color name="carlendar_text_color">#000000</color>
+    <color name="carlendar_sign_text">#BCBCBC</color>
+    <color name="sign_text_color">#000000</color>
+    <color name="sign_list_by_day_item_line">#BCBCBC</color>
+    <color name="sign_time_text_color">#333333</color>
+
+</resources>

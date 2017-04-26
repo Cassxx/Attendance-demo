@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout_calendar"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:background="@color/carlendar_bg"
+    android:visibility="visible">
+
+
+    <RelativeLayout
+        android:id="@+id/topbar"
+        android:layout_width="fill_parent"
+        android:layout_height="56dp">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="56dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/calendarLeft"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="#00000000"
+                android:gravity="left|center_vertical"
+                android:paddingLeft="14dp"
+                android:src="@drawable/calendar_month_left" />
+
+            <TextView
+                android:id="@+id/calendarCenter"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="5月23日"
+                android:textSize="16sp"
+                android:textColor="@color/carlendar_text_color" />
+
+            <ImageButton
+                android:id="@+id/calendarRight"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:background="#00000000"
+                android:gravity="right|center_vertical"
+                android:paddingRight="14dp"
+                android:src="@drawable/calendar_month_right" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/line"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@id/topbar"
+        android:background="#BFBFBF" />
+
+    <RelativeLayout
+        android:id="@+id/scroll"
+        android:layout_width="fill_parent"
+        android:layout_height="350dp"
+        android:layout_below="@id/line">
+
+        <com.example.wuzhihan.finalwork.Signin.sign.ScrollLayout
+            android:id="@+id/scrollLayout"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="visible">
+
+            <com.example.wuzhihan.finalwork.Signin.sign.CalendarView
+                android:id="@+id/calendar_left"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true" />
+
+            <com.example.wuzhihan.finalwork.Signin.sign.CalendarView
+                android:id="@+id/calendar"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true" />
+
+            <com.example.wuzhihan.finalwork.Signin.sign.CalendarView
+                android:id="@+id/calendar_right"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_alignParentLeft="true" />
+
+        </com.example.wuzhihan.finalwork.Signin.sign.ScrollLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/scroll"
+        android:layout_centerInParent="true">
+
+        <RelativeLayout
+            android:id="@+id/normal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true">
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/normal_corner" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:padding="12sp"
+                android:text="正常" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/abnormal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/normal">
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/abnormal_corner" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:padding="12sp"
+                android:text="异常" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/signout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/abnormal">
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/signout_corner" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:padding="12sp"
+                android:text="外勤" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/signleave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/signout">
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/signleave_corner" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:padding="12sp"
+                android:text="请假" />
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/signlack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/signleave">
+
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/lack_corner" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="10dp"
+                android:padding="12sp"
+                android:text="缺勤" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

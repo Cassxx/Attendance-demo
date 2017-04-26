@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+
+            <!-- 边线颜色 -->
+            <solid android:color="@color/divider_bg" />
+        </shape>
+    </item>
+    <item
+        android:bottom="1dip"
+        android:top="1dip"
+        android:left="1dip"
+        android:right="1dip">
+        <shape>
+
+            <!-- 填充色 -->
+            <solid android:color="@color/edittext_bg" />
+        </shape>
+    </item>
+</layer-list>
