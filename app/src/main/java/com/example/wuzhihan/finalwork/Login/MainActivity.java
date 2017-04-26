@@ -32,7 +32,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Bmob.initialize(this,"183cfbe73f48d56166828fe44fa557d2");
+        Bmob.initialize(this,"在这里输入你自己的Bmob APP Id");
 
         register_textView = (TextView)findViewById(R.id.register_user_login);
         register_textView.setOnClickListener(this);
