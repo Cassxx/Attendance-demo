@@ -38,11 +38,14 @@ public class MainActivity extends Activity implements View.OnClickListener {
         setContentView(R.layout.activity_main);
 
         Bmob.initialize(this,"在这里输入你自己的Bmob APP Id");
+<<<<<<< HEAD
 
         mTopBarView = (TopBarView)findViewById(R.id.login_top_bar);
         mTopBarView.setTitle("用户登录");
         mTopBarView.setSettingsVisiable(View.GONE);
         mTopBarView.setReturnBtnVisiable(View.GONE);
+=======
+>>>>>>> origin/master
 
         register_textView = (TextView)findViewById(R.id.register_user_login);
         register_textView.setOnClickListener(this);
