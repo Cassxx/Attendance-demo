@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_framework_bg"
+    android:orientation="vertical">
+
+    <com.example.wuzhihan.finalwork.TopBarView
+        android:id="@+id/center_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_bar_height"
+        android:background="@color/topbar_bg"/>
+
+    <!-- 时间,地点 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/edittext_bg"
+        android:orientation="vertical"
+        android:padding="15dip">
+
+        <com.amap.api.maps2d.MapView
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="200dip"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="5dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_marginTop="12dip"
+            android:layout_weight="1">
+
+            <TextView
+                android:id="@+id/field_sign_addr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:textColor="#333333"
+                android:textSize="14sp" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 图片 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="160dip"
+        android:layout_marginTop="10dip"
+        android:background="@color/edittext_bg"
+        android:orientation="vertical"
+        android:padding="15dip">
+
+        <EditText
+            android:id="@+id/field_sign_description"
+            android:layout_width="match_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:background="@color/edittext_bg"
+            android:gravity="top|left"
+            android:hint="签到说明......"
+            android:textColor="#333333"
+            android:textSize="14sp" />
+
+        <LinearLayout
+            android:id="@+id/field_sign_images_parent"
+            android:layout_width="match_parent"
+            android:layout_height="56dip"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="10dip">
+            <!-- 图片1 -->
+            <FrameLayout
+                android:id="@+id/field_sign_image_parent1"
+                android:layout_width="56dip"
+                android:layout_height="56dip"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/field_sign_image1"
+                    android:layout_width="50dip"
+                    android:layout_height="50dip"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop" />
+
+                <ImageView
+                    android:id="@+id/field_sign_delete_image1"
+                    android:layout_width="12dip"
+                    android:layout_height="12dip"
+                    android:layout_gravity="top|right"
+                    android:scaleType="center"
+                    android:src="@drawable/delete_btn"
+                    android:visibility="gone" />
+            </FrameLayout>
+            <!-- 图片2 -->
+            <FrameLayout
+                android:id="@+id/field_sign_image_parent2"
+                android:layout_width="56dip"
+                android:layout_height="56dip"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/field_sign_image2"
+                    android:layout_width="50dip"
+                    android:layout_height="50dip"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop" />
+
+                <ImageView
+                    android:id="@+id/field_sign_delete_image2"
+                    android:layout_width="12dip"
+                    android:layout_height="12dip"
+                    android:layout_gravity="top|right"
+                    android:scaleType="center"
+                    android:src="@drawable/delete_btn"
+                    android:visibility="gone" />
+            </FrameLayout>
+            <!-- 图片3 -->
+            <FrameLayout
+                android:id="@+id/field_sign_image_parent3"
+                android:layout_width="56dip"
+                android:layout_height="56dip"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/field_sign_image3"
+                    android:layout_width="50dip"
+                    android:layout_height="50dip"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop" />
+
+                <ImageView
+                    android:id="@+id/field_sign_delete_image3"
+                    android:layout_width="12dip"
+                    android:layout_height="12dip"
+                    android:layout_gravity="top|right"
+                    android:scaleType="center"
+                    android:src="@drawable/delete_btn"
+                    android:visibility="gone" />
+            </FrameLayout>
+            <!-- 图片4 -->
+            <FrameLayout
+                android:id="@+id/field_sign_image_parent4"
+                android:layout_width="56dip"
+                android:layout_height="56dip"
+                android:visibility="gone">
+
+                <ImageView
+                    android:id="@+id/field_sign_image4"
+                    android:layout_width="50dip"
+                    android:layout_height="50dip"
+                    android:layout_gravity="center"
+                    android:scaleType="centerCrop" />
+
+                <ImageView
+                    android:id="@+id/field_sign_delete_image4"
+                    android:layout_width="12dip"
+                    android:layout_height="12dip"
+                    android:layout_gravity="top|right"
+                    android:scaleType="center"
+                    android:src="@drawable/delete_btn"
+                    android:visibility="gone" />
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/field_sign_add_btn"
+                android:layout_width="56dip"
+                android:layout_height="56dip"
+                android:layout_gravity="center"
+                android:padding="6dip"
+                android:scaleType="center"
+                android:src="@drawable/icon_addpic_unfocused" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <!-- 提交按钮 -->
+    <TextView
+        android:id="@+id/field_sign_submit_btn"
+        style="@style/corner_btn.blue"
+        android:layout_marginLeft="@dimen/btn_padding_left"
+        android:layout_marginRight="@dimen/btn_padding_right"
+        android:layout_marginTop="64dip"
+        android:text="提交" />
+
+
+</LinearLayout>

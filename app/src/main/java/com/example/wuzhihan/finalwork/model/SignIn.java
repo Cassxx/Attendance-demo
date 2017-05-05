@@ -3,6 +3,7 @@ package com.example.wuzhihan.finalwork.model;
 import java.util.Date;
 
 import cn.bmob.v3.BmobObject;
+import cn.bmob.v3.datatype.BmobFile;
 
 /**
  * Created by Wuzhihan on 2017/4/16.
@@ -16,9 +17,41 @@ public class SignIn extends BmobObject{
     private String YearAndMonth;
     private Date createAt;
     private Integer signState;
+    private BmobFile photo;
+    private String latitude;
+    private String longitude;
+    private String remarks;
 
-    public String getInTime() {
-        return inTime;
+    public BmobFile getPhoto() {
+        return photo;
+    }
+
+    public String getRemarks() {
+        return remarks;
+    }
+
+    public void setRemarks(String remarks) {
+        this.remarks = remarks;
+    }
+
+    public String getLatitude() {
+        return latitude;
+    }
+
+    public void setLatitude(String latitude) {
+        this.latitude = latitude;
+    }
+
+    public String getLongitude() {
+        return longitude;
+    }
+
+    public void setLongitude(String longitude) {
+        this.longitude = longitude;
+    }
+
+    public void setPhoto(BmobFile photo) {
+        this.photo = photo;
     }
 
     public Integer getSignState() {
@@ -43,6 +76,10 @@ public class SignIn extends BmobObject{
 
     public void setYearAndMonth(String yearAndMonth) {
         YearAndMonth = yearAndMonth;
+    }
+
+    public String getInTime() {
+        return inTime;
     }
 
     public void setInTime(String inTime) {
@@ -73,13 +110,5 @@ public class SignIn extends BmobObject{
         this.username = username;
     }
 
-    //
-//    public String getPassword() {
-//        return password;
-//    }
-//
-//    public void setPassword(String password) {
-//        this.password = password;
-//    }
 
 }

@@ -28,7 +28,5 @@ dependencies {
     compile 'com.android.support:appcompat-v7:24.2.1'
     testCompile 'junit:junit:4.12'
     compile files('libs/AMap2DMap_4.2.0_AMapSearch_4.0.0_AMapLocation_3.3.0_20170120.jar')
-//    compile files('libs/httpcore-4.3.2.jar')
-//    compile files('libs/httpmime-4.3.5.jar')
     compile 'cn.bmob.android:bmob-sdk:3.5.3'
 }

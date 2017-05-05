@@ -4,20 +4,17 @@ import android.content.Context;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 
-import org.apache.http.NameValuePair;
-import org.apache.http.message.BasicNameValuePair;
-
-import java.net.URLEncoder;
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Map;
-
 /**
  * Created by Wuzhihan on 2017/4/12.
  */
 
 public class Util {
     private static final String TAG = "Util";
+
+    /**
+     * 启动拍照
+     */
+    public static final int REQUEST_CODE_FROM_CAMERA = 3;
 
     public static boolean isNetWorkAvailable(Context context) {
         ConnectivityManager cm = (ConnectivityManager) context
@@ -28,37 +25,37 @@ public class Util {
         return info != null && info.isConnected();
     }
 
-    public static String getGetParams(List<NameValuePair> pairs)
-            throws Exception {
-        String urlParams = "";
-        for (NameValuePair nv : pairs) {
-            if (urlParams.equals("")) {
-                urlParams += "?";
-            } else {
-                urlParams += "&";
-            }
-            String pname = nv.getName();
-            String pvalue = nv.getValue();
-            if (pname != null && pname.length() > 0) {
-                if (pvalue != null && pvalue.length() > 0) {
-                    urlParams += (pname + "=" + URLEncoder.encode(pvalue,
-                            "UTF-8"));
-                } else {
-                    urlParams += (pname + "=");
-                }
-            }
-        }
-        return urlParams;
+
+
+    private static int mWidth = -1;
+
+    private static int mHeight = -1;
+
+    private static float mDensity = 2.0f;
+
+    public static void setScreenWidth(int width) {
+        mWidth = width;
     }
 
-    public static List<NameValuePair> mapToList(Map<String, String> params) {
-        List<NameValuePair> pairs = new ArrayList<NameValuePair>();
-        if (params != null && !params.isEmpty()) {
-            for (Map.Entry<String, String> entry : params.entrySet()) {
-                pairs.add(new BasicNameValuePair(entry.getKey(), entry
-                        .getValue()));
-            }
-        }
-        return pairs;
+    public static void setScreenHeight(int height) {
+        mHeight = height;
     }
+
+    public static int getScreenWidth() {
+        return mWidth;
+    }
+
+    public static int getScreenHeight() {
+        return mHeight;
+    }
+
+    public static void setScreenDensity(float density) {
+        mDensity = density;
+    }
+
+    public static float getScreenDensity() {
+        return mDensity;
+    }
+
+
 }

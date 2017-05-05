@@ -4,16 +4,6 @@
     android:layout_height="match_parent"
     android:background="@drawable/local_sign_bg"
     android:orientation="vertical">
-    <!--
-        <include
-            android:id="@+id/time_bar"
-            layout="@layout/sign_common_layout"
-            android:layout_width="match_parent"
-            android:layout_height="76dp"
-            android:layout_marginLeft="30dp"
-            android:layout_marginRight="30dp"
-            android:layout_marginTop="30dp" />
-    -->
     <include
         android:id="@+id/time_bar"
         layout="@layout/sign_common_top_layout"

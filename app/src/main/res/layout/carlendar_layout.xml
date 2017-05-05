@@ -6,11 +6,17 @@
     android:background="@color/carlendar_bg"
     android:visibility="visible">
 
+    <com.example.wuzhihan.finalwork.TopBarView
+        android:id="@+id/center_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_bar_height"
+        android:background="@color/topbar_bg"/>
 
     <RelativeLayout
         android:id="@+id/topbar"
         android:layout_width="fill_parent"
-        android:layout_height="56dp">
+        android:layout_height="56dp"
+        android:layout_below="@id/center_top_bar">
 
         <LinearLayout
             android:layout_width="fill_parent"
@@ -60,31 +66,31 @@
         android:layout_height="350dp"
         android:layout_below="@id/line">
 
-        <com.example.wuzhihan.finalwork.Signin.sign.ScrollLayout
+        <com.example.wuzhihan.finalwork.Signin.ScrollLayout
             android:id="@+id/scrollLayout"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
             android:visibility="visible">
 
-            <com.example.wuzhihan.finalwork.Signin.sign.CalendarView
+            <com.example.wuzhihan.finalwork.Signin.CalendarView
                 android:id="@+id/calendar_left"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_alignParentLeft="true" />
 
-            <com.example.wuzhihan.finalwork.Signin.sign.CalendarView
+            <com.example.wuzhihan.finalwork.Signin.CalendarView
                 android:id="@+id/calendar"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_alignParentLeft="true" />
 
-            <com.example.wuzhihan.finalwork.Signin.sign.CalendarView
+            <com.example.wuzhihan.finalwork.Signin.CalendarView
                 android:id="@+id/calendar_right"
                 android:layout_width="fill_parent"
                 android:layout_height="fill_parent"
                 android:layout_alignParentLeft="true" />
 
-        </com.example.wuzhihan.finalwork.Signin.sign.ScrollLayout>
+        </com.example.wuzhihan.finalwork.Signin.ScrollLayout>
     </RelativeLayout>
 
     <RelativeLayout

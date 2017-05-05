@@ -5,6 +5,12 @@
     android:layout_height="match_parent"
     android:background="@color/doc_bg">
 
+    <com.example.wuzhihan.finalwork.TopBarView
+        android:id="@+id/register_top_bar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/top_bar_height"
+        android:background="@color/topbar_bg"/>
+
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="50dip"

@@ -8,4 +8,22 @@ import cn.bmob.v3.BmobUser;
 
 public class Person extends BmobUser {
 
+    private String imei;
+    private String imsi;
+
+    public String getImsi() {
+        return imsi;
+    }
+
+    public void setImsi(String imsi) {
+        this.imsi = imsi;
+    }
+
+    public String getImei() {
+        return imei;
+    }
+
+    public void setImei(String imei) {
+        this.imei = imei;
+    }
 }
