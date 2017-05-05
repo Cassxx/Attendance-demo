@@ -40,18 +40,12 @@ public class Register extends Activity implements View.OnClickListener {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.register_layout);
 
-<<<<<<< HEAD
-<<<<<<< HEAD
         Bmob.initialize(this,"183cfbe73f48d56166828fe44fa557d2");
 
         mTopBarView = (TopBarView)findViewById(R.id.register_top_bar);
         mTopBarView.setTitle("用户注册");
         mTopBarView.setSettingsVisiable(View.GONE);
 
-=======
->>>>>>> origin/master
-=======
->>>>>>> origin/master
         id_editText = (EditText)findViewById(R.id.mobile_register_one_et);
         pwd_editText = (EditText)findViewById(R.id.mobile_register_two_et);
         next_button = (Button)findViewById(R.id.register_next_btn);
